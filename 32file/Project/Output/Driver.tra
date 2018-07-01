@@ -1,0 +1,51 @@
+*** Creating Trace Output File '.\Output\Driver.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\hardware_init.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '".\output\key.o"'
+### List of Objects: adding '".\output\led.o"'
+### List of Objects: adding '".\output\global.o"'
+### List of Objects: adding '".\output\io_config.o"'
+### List of Objects: adding '".\output\uart.o"'
+### List of Objects: adding '".\output\adc.o"'
+### List of Objects: adding '".\output\voltage_sensor.o"'
+### List of Objects: adding '".\output\current_sensor.o"'
+### List of Objects: adding '".\output\motor_driver.o"'
+### List of Objects: adding '".\output\head_driver.o"'
+### List of Objects: adding '".\output\head_sensor.o"'
+### List of Objects: adding '".\output\timer.o"'
+### List of Objects: adding '".\output\rtk_packge.o"'
+### List of Objects: adding '".\output\imu.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\stm32f10x_adc.o"'
+### List of Objects: adding '".\output\stm32f10x_dac.o"'
+### List of Objects: adding '".\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\stm32f10x_flash.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\startup_stm32f10x_cl.o"'
+### List of Objects: adding '".\output\duration.o"'
+### List of Objects: adding '".\output\time.o"'
+### List of Objects: adding '".\output\mv_math.o"'
+### List of Objects: adding '".\output\fast_math.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\hardware_init.o" ".\output\main.o" ".\output\stm32f10x_it.o" ".\output\key.o" ".\output\led.o" ".\output\global.o" ".\output\io_config.o" ".\output\uart.o" ".\output\adc.o" ".\output\voltage_sensor.o" ".\output\current_sensor.o" ".\output\motor_driver.o" ".\output\head_driver.o" ".\output\head_sensor.o" ".\output\timer.o" ".\output\rtk_packge.o" ".\output\imu.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_gpio.o" ".\output\misc.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_adc.o" ".\output\stm32f10x_dac.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_flash.o" ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\startup_stm32f10x_cl.o" ".\output\duration.o" ".\output\time.o" ".\output\mv_math.o" ".\output\fast_math.o" --strict --scatter ".\Output\Driver.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Output\Driver.map" -o ".\Output\Driver.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\Driver.axf'
+### ADS-LD Command File: '.\Output\Driver.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\Driver.lnp', Handle=0x00000144
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\Driver.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
